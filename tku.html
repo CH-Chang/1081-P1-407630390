@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+  <head>
+    <!--- basic page needs
+    ================================================== -->
+    <meta charset="utf-8" />
+    <title>FLY Web</title>
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+
+    <!-- mobile specific metas
+    ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#6C6C6C" />
+
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/vendor.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Noto+Sans+TC&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- script
+    ================================================== -->
+    <script src="js/modernizr.js"></script>
+    <script src="js/pace.min.js"></script>
+
+    <!-- favicons
+    ================================================== -->
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png" />
+    <link rel="manifest" href="site.webmanifest" />
+  </head>
+
+  <body id="top">
+    <div id="preloader">
+      <div id="loader"></div>
+    </div>
+
+    <!-- site header
+    ================================================== -->
+    <header class="s-header">
+      <div class="header-logo">
+        <a class="site-logo" href="index.html">
+          <img src="images/logo.svg" alt="Homepage" />
+        </a>
+      </div>
+
+      <nav class="header-nav-wrap">
+        <ul class="header-main-nav">
+          <li><a href="./index.html">HOME</a></li>
+          <li class="current">
+            <a class="smoothscroll" href="#intro" title="intro">Intro</a>
+          </li>
+          <li>
+            <a class="smoothscroll" href="#resume" title="resume">resume</a>
+          </li>
+
+          <li>
+            <a class="smoothscroll" href="#curriculum" title="curriculum"
+              >curriculum</a
+            >
+          </li>
+          <li>
+            <a class="smoothscroll" href="#contact" title="contact us"
+              >Contact</a
+            >
+          </li>
+        </ul>
+
+        <ul class="header-social">
+          <li>
+            <a href="#0"
+              ><i class="fab fa-facebook-f" aria-hidden="true"></i
+            ></a>
+          </li>
+          <li>
+            <a href="#0"><i class="fab fa-twitter" aria-hidden="true"></i></a>
+          </li>
+          <li>
+            <a href="#0"><i class="fab fa-dribbble" aria-hidden="true"></i></a>
+          </li>
+          <li>
+            <a href="#0"><i class="fab fa-behance" aria-hidden="true"></i></a>
+          </li>
+        </ul>
+      </nav>
+
+      <a class="header-menu-toggle" href="#"><span>Menu</span></a>
+    </header>
+    <!-- end s-header -->
+
+    <!-- intro
+    ================================================== -->
+    <section id="intro" class="s-intro target-section">
+      <div class="row intro-content">
+        <div class="column large-6 mob-full intro-text">
+          <h3>專案說明 -</h3>
+          <p>
+            除了完成本專案基本要求—建立履歷表及課表(點擊課程名稱可察看教學進度表)外，將整個Bootstrap內容以自己的自我介紹、作品集等進行填充。
+            其他網頁部分設計包含修改Icon、中文字體預設以Google提供之思源黑體進行設置、以手機瀏覽時導航列會套用主題顏色等等...
+            未來該網頁可以改寫原網頁有的Masonry部分，並修改ImageLoader使之可以崁入Youtube連結影片。
+            在進入TKU頁面後，可以再點擊上方的HOME回到原本的主頁面。
+          </p>
+        </div>
+
+        <div class="intro-scroll">
+          <a href="#resume" class="intro-scroll-link smoothscroll">
+            Scroll down for more
+          </a>
+        </div>
+
+        <div class="intro-grid"></div>
+        <div class="intro-pic"></div>
+      </div>
+      <!-- end row -->
+    </section>
+    <!-- end intro -->
+
+    <!-- resume
+    ================================================== -->
+    <section id="resume" class="resume target-section">
+      <div class="row heading-block" data-aos="fade-up">
+        <div class="column large-full-center">
+          <h2 class="section-heading ">
+            MY RESUME
+          </h2>
+        </div>
+      </div>
+
+      <div class="row" data-aos="fade-up">
+        <table class="resume-table" border="1">
+          <tr>
+            <th>姓名</th>
+            <td>張智翔</td>
+            <td rowspan="6">
+              <img src="images/resume/photo.jpg" width="150px" />
+            </td>
+          </tr>
+          <tr>
+            <th>性別</th>
+            <td>男性</td>
+          </tr>
+          <tr>
+            <th>生日</th>
+            <td>個資因素，請郵件網站擁有者取得</td>
+          </tr>
+          <tr>
+            <th>血型</th>
+            <td>B型</td>
+          </tr>
+          <tr>
+            <th>連絡電話</th>
+            <td>個資因素，請郵件網站擁有者取得</td>
+          </tr>
+          <tr>
+            <th>聯絡地址</th>
+            <td>個資因素，請郵件網站擁有者取得</td>
+          </tr>
+          <tr>
+            <th rowspan="2">家庭</th>
+            <td colspan="2">父親 - 工程技師</td>
+          </tr>
+          <tr>
+            <td colspan="2">母親 - 家　　管</td>
+          </tr>
+          <tr>
+            <th>就讀學校</th>
+            <td colspan="2">淡江大學 資訊工程學系</td>
+          </tr>
+          <tr>
+            <th>專長</th>
+            <td colspan="2">
+              程式設計、影像剪輯、美工設計、電腦繪圖、文書處理
+            </td>
+          </tr>
+          <tr>
+            <th>興趣</th>
+            <td colspan="2">鑽研程式、影像剪輯、上網</td>
+          </tr>
+          <tr>
+            <th>個性</th>
+            <td colspan="2">活潑、熱情</td>
+          </tr>
+          <tr>
+            <th rowspan="4">高中服務經歷</th>
+            <td colspan="2">班級資訊股長 - 105學年度至106學年度</td>
+          </tr>
+          <tr>
+            <td colspan="2">資訊研究社教學股長 - 105學年度</td>
+          </tr>
+          <tr>
+            <td colspan="2">衛生糾察 - 105學年度</td>
+          </tr>
+          <tr>
+            <td colspan="2">輔導室志工 - 105學年度</td>
+          </tr>
+          <tr>
+            <th rowspan="7">高中競賽經歷</th>
+            <td colspan="2">104學年度校內學科能力競賽 資訊科(App組) - 佳作</td>
+          </tr>
+          <tr>
+            <td colspan="2">105學念度校內科學展覽 資訊科 - 佳作</td>
+          </tr>
+          <tr>
+            <td colspan="2">105學年度校內科學能力競賽 資訊科(程式組) - 優勝</td>
+          </tr>
+          <tr>
+            <td colspan="2">跨領域美感教育實驗課程開發計畫 科學模型 - 優等</td>
+          </tr>
+          <tr>
+            <td colspan="2">106年北區四城市中小學學生專題寫作比賽 - 入選獎</td>
+          </tr>
+          <tr>
+            <td colspan="2">106學年度學科能力競賽新北市複賽 資訊科 - 佳作</td>
+          </tr>
+          <tr>
+            <td colspan="2">第十九屆網際網路程式設計全國大賽 - 參賽</td>
+          </tr>
+          <tr>
+            <th>大學競賽經歷</th>
+            <td colspan="2">第九屆全國私立大專校院程式競賽 - 參賽</td>
+          </tr>
+          <tr>
+            <th rowspan="4">證照檢定經歷</th>
+            <td colspan="2">APCS 大學程式設計先修檢定 - 七級分</td>
+          </tr>
+          <tr>
+            <td colspan="2">CPE 大學程式能力檢定 - 兩題</td>
+          </tr>
+          <tr>
+            <td colspan="2">TOEIC 多益英語測驗 - 綠色證書</td>
+          </tr>
+          <tr>
+            <td colspan="2">TQC Excel 2016 資訊能力檢定 - 進階級</td>
+          </tr>
+        </table>
+      </div>
+    </section>
+    <!-- end resume -->
+
+    <!-- curriculum
+    ================================================== -->
+    <section id="curriculum" class="curriculum  target-section">
+      <div class="row heading-block" data-aos="fade-up">
+        <div class="column large-full">
+          <h2 class="section-heading ">
+            MY CURRICULUM
+          </h2>
+        </div>
+      </div>
+
+      <div class="row" data-aos="fade-up">
+        <table class="curriculum-table" border="1">
+          <tr>
+            <th></th>
+            <th>週一</th>
+            <th>週二</th>
+            <th>週三</th>
+            <th>週四</th>
+            <th>週五</th>
+          </tr>
+          <tr>
+            <th>一</th>
+            <td rowspan="2">
+              資工二<br />
+              <a
+                href="http://ap09.emis.tku.edu.tw/108_1/108_1_0783.PDF"
+                target="_blank"
+                >資料結構與處理</a
+              ><br />
+              黃仁俊 E830
+            </td>
+            <td>
+              資工二<br />
+              <a
+                href="http://ap09.emis.tku.edu.tw/108_1/108_1_0795.PDF"
+                target="_blank"
+                >開源軟體實務</a
+              ><br />
+              陳瑞發 E213
+            </td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <th>二</th>
+            <td>
+              資工二<br />
+              工程數學(實習課)<br />
+              助　教 E409
+            </td>
+            <td>
+              資工二<br />
+              資料結構與處理(實習課)<br />
+              助　教 E402
+            </td>
+            <td rowspan="3">
+              資工二<br />
+              <a
+                href="http://ap09.emis.tku.edu.tw/108_1/108_1_0801.PDF"
+                target="_blank"
+                >資訊系統實驗(一)</a
+              ><br />
+              陳瑞發 E201
+            </td>
+            <td></td>
+          </tr>
+          <tr>
+            <th>三</th>
+            <td rowspan="2">
+              資工二<br />
+              <a
+                href="http://ap09.emis.tku.edu.tw/108_1/108_1_0795.PDF"
+                target="_blank"
+                >開源軟體實務</a
+              ><br />
+              陳瑞發 E213
+            </td>
+            <td rowspan="2">
+              資工二<br />
+              <a
+                href="http://ap09.emis.tku.edu.tw/108_1/108_1_0777.PDF"
+                target="_blank"
+                >工程數學</a
+              ><br />
+              郭經華 E830
+            </td>
+            <td>
+              資工二<br />
+              <a
+                href="http://ap09.emis.tku.edu.tw/108_1/108_1_0783.PDF"
+                target="_blank"
+                >資料結構與處理</a
+              ><br />
+              黃仁俊 E411
+            </td>
+            <td></td>
+          </tr>
+          <tr>
+            <th>四</th>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <th>五</th>
+            <td>
+              資工二<br />
+              開源軟體實務(實習課)<br />
+              助　教 E213
+            </td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>
+              資工二<br />
+              組合語言與系統程式(實習課)<br />
+              助　教 E307
+            </td>
+          </tr>
+          <tr>
+            <th>六</th>
+            <td></td>
+            <td rowspan="2">
+              社會分析學門<br />
+              <a
+                href="http://ap09.emis.tku.edu.tw/108_1/108_1_3536.PDF"
+                target="_blank"
+                >文化與心理健康</a
+              ><br />
+              宋鴻燕 SG503
+            </td>
+            <td rowspan="2">
+              資訊教育學門<br />
+              <a
+                href="http://ap09.emis.tku.edu.tw/108_1/108_1_3320.PDF"
+                target="_blank"
+                >網頁程式設計</a
+              ><br />
+              鍾興臺 B218
+            </td>
+            <td rowspan="2">
+              歷史與文化學門<br />
+              <a
+                href="http://ap09.emis.tku.edu.tw/108_1/108_1_3327.PDF"
+                target="_blank"
+                >中國歷史與人物</a
+              ><br />
+              戴月芳 SG506
+            </td>
+            <td rowspan="2">
+              共同科<br />
+              <a
+                href="http://ap09.emis.tku.edu.tw/108_1/108_1_1865.PDF"
+                target="_blank"
+                >英文(二)</a
+              ><br />
+              郭怡君 E307
+            </td>
+          </tr>
+          <tr>
+            <th>七</th>
+            <td>
+              資工二<br />
+              <a
+                href="http://ap09.emis.tku.edu.tw/108_1/108_1_0777.PDF"
+                target="_blank"
+                >工程數學</a
+              ><br />
+              郭經華 E413
+            </td>
+          </tr>
+          <tr>
+            <th>八</th>
+            <td rowspan="3">
+              資工二<br />
+              <a
+                href="http://ap09.emis.tku.edu.tw/108_1/108_1_0789.PDF"
+                target="_blank"
+                >組合語言與系統程式</a
+              ><br />
+              江俊廷 E410
+            </td>
+            <td></td>
+            <td rowspan="2">
+              資工一<br />
+              <a
+                href="http://ap09.emis.tku.edu.tw/108_1/108_1_0750.PDF"
+                target="_blank"
+                >離散數學</a
+              ><br />
+              洪文斌 E513
+            </td>
+            <td>
+              資工一<br />
+              <a
+                href="http://ap09.emis.tku.edu.tw/108_1/108_1_0750.PDF"
+                target="_blank"
+                >離散數學</a
+              ><br />
+              洪文斌 E413
+            </td>
+            <td></td>
+          </tr>
+          <tr>
+            <th>九</th>
+            <td></td>
+            <td rowspan="2">
+              <a
+                href="http://ap09.emis.tku.edu.tw/108_1/108_1_2101.PDF"
+                target="_blank"
+                >男、女生體育-養生氣功興趣班</a
+              ><br />
+              陳怡穎 SG246
+            </td>
+            <td></td>
+          </tr>
+          <tr>
+            <th>十</th>
+            <td></td>
+            <td>
+              資工一<br />
+              離散數學(實習課)<br />
+              助　教 E513
+            </td>
+            <td></td>
+          </tr>
+        </table>
+      </div>
+    </section>
+    <!-- end curriculum -->
+
+    <!-- contact
+    ================================================== -->
+    <section id="contact" class="s-contact ss-dark target-section">
+      <div class="row heading-block heading-block--center" data-aos="fade-up">
+        <div class="column large-full">
+          <h2 class="section-heading section-heading--centerbottom">
+            Contact Me
+          </h2>
+        </div>
+      </div>
+
+      <div class="row contact-main" data-aos="fade-up">
+        <div style="margin: auto;">
+          <a
+            href="https://www.facebook.com/profile.php?id=100009196211039"
+            target="_blank"
+            ><img
+              src="images/icons/icon-facebook.svg"
+              width="50px"
+              height="50px"
+          /></a>
+          <a href="https://ppt.cc/fEEBIx" target="_blank"
+            ><img src="images/icons/icon-youtube.svg" width="50px" height="50px"
+          /></a>
+          <a
+            href="https://instagram.com/_.flyinthesky._?igshid=2okyco10ce3n"
+            target="_blank"
+            ><img
+              src="images/icons/icon-instagram.svg"
+              width="50px"
+              height="50px"
+          /></a>
+        </div>
+        -->
+
+        <div class="column large-full">
+          <p>
+            歡迎關注以上社交媒體<br />
+            <br />
+          </p>
+          <p><a href="mailto:hew12233@gms.tku.edu.tw">Email</a></p>
+        </div>
+      </div>
+    </section>
+    <!-- end s-contact -->
+
+    <!-- footer
+    ================================================== -->
+    <footer>
+      <div class="row">
+        <div class="column large-full ss-copyright">
+          <span>© Copyright Chih-Hsiang 2019</span>
+          <span
+            >Design by
+            <a href="https://www.styleshout.com/">StyleShout</a></span
+          >
+          <span>Modify by Chih-Hsiang Chang</span>
+          <span
+            >Refer from
+            <a
+              href="https://themewagon.com/themes/free-html5-css3-personal-portfolio-website-template-epitome/"
+              >Link</a
+            ></span
+          >
+        </div>
+
+        <div class="ss-go-top">
+          <a class="smoothscroll" title="Back to Top" href="#top"></a>
+        </div>
+      </div>
+    </footer>
+
+    <!-- photoswipe background
+    ================================================== -->
+    <div aria-hidden="true" class="pswp" role="dialog" tabindex="-1">
+      <div class="pswp__bg"></div>
+      <div class="pswp__scroll-wrap">
+        <div class="pswp__container">
+          <div class="pswp__item"></div>
+          <div class="pswp__item"></div>
+          <div class="pswp__item"></div>
+        </div>
+
+        <div class="pswp__ui pswp__ui--hidden">
+          <div class="pswp__top-bar">
+            <div class="pswp__counter"></div>
+            <button
+              class="pswp__button pswp__button--close"
+              title="Close (Esc)"
+            ></button>
+            <button
+              class="pswp__button pswp__button--share"
+              title="Share"
+            ></button>
+            <button
+              class="pswp__button pswp__button--fs"
+              title="Toggle fullscreen"
+            ></button>
+            <button
+              class="pswp__button pswp__button--zoom"
+              title="Zoom in/out"
+            ></button>
+            <div class="pswp__preloader">
+              <div class="pswp__preloader__icn">
+                <div class="pswp__preloader__cut">
+                  <div class="pswp__preloader__donut"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap"
+          >
+            <div class="pswp__share-tooltip"></div>
+          </div>
+          <button
+            class="pswp__button pswp__button--arrow--left"
+            title="Previous (arrow left)"
+          ></button>
+          <button
+            class="pswp__button pswp__button--arrow--right"
+            title="Next (arrow right)"
+          ></button>
+          <div class="pswp__caption">
+            <div class="pswp__caption__center"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end photoSwipe background -->
+
+    <!-- Java Script
+    ================================================== -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
